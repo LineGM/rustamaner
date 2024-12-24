@@ -2,10 +2,10 @@
 Rustamaner is a password manager that locally stores your passwords in an encrypted .db file. Encryption is performed using [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) and AEAD-algorithm [AES256-GCM](https://en.wikipedia.org/wiki/Galois/Counter_Mode).
 
 ## Windows
-To install this app on Windows, you need to download the rustamaner.exe file from the Releases page and run it from anywhere on your system.
+To install this app on Windows, you need to download the rustamaner.exe file from the [Releases](https://github.com/LineGM/rustamaner/releases) page and run it from anywhere on your system.
 
 ## Linux
-To install this application on Linux, you need to download the archive rustamaner-x86_64-linux.tar.gz from the Releases page. Inside the archive is the rustamaner executable file, which can be placed anywhere on your system. Preferably, the executable should be located in a directory included in your $PATH environment variable.
+To install this application on Linux, you need to download the archive rustamaner-x86_64-linux.tar.gz from the [Releases](https://github.com/LineGM/rustamaner/releases) page. Inside the archive is the rustamaner executable file, which can be placed anywhere on your system. Preferably, the executable should be located in a directory included in your $PATH environment variable.
 
 ## Build
 To build, you need cargo and a toolchain for your target platform. Just install Rust according to the Rust Book and you're all set.
