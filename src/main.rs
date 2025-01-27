@@ -33,12 +33,12 @@ struct Rustamaner {
 
 impl Default for Rustamaner {
     fn default() -> Self {
-        let data_dir = data_dir().unwrap().join("passman");
+        let data_dir = data_dir().unwrap().join("rustamaner");
         if let Err(e) = fs::create_dir_all(&data_dir) {
             eprintln!("Failed to create data directory: {}", e);
             panic!("Failed to create data directory");
         }
-        let db_path = data_dir.join("passwords.db");
+        let db_path = data_dir.join("rustamaner.db");
         let conn = match Connection::open(&db_path) {
             Ok(conn) => conn,
             Err(e) => {
